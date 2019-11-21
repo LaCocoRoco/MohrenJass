@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="activity_main_button_duo">Kreuzjass</string>
+    <string name="activity_main_button_solo">Einzeljass</string>
+    <string name="activity_main_button_settings">Einstellungen</string>
+
+    <string name="activity_duo_button_reverse">Rückgängig</string>
+    <string name="activity_duo_button_new_game">Neues Spiel</string>
+    <string name="activity_duo_edit_text_lhs">Gruppe A</string>
+    <string name="activity_duo_edit_text_rhs">Gruppe B</string>
+    <string name="activity_duo_dialog_title_end">Spiel beendet</string>
+    <string name="activity_duo_dialog_message_won">Hat Gewonnen</string>
+    <string name="activity_duo_dialog_button_close">Schließen</string>
+
+    <string name="activity_input_button_evaluate_played_points">Hinzuzählen</string>
+    <string name="activity_input_text_view_played_points">Gespielte Punkte</string>
+    <string name="activity_input_text_view_points_enemy">Punkte Gegner:</string>
+    <string name="activity_input_text_view_remit_points">Gewiesene Punkte</string>
+
+    <string name="activity_settings_text_view_duo_title">Kreuzjass</string>
+    <string name="activity_settings_text_view_duo_points_limit">Punktelimit (max. 2500):</string>
+    <string name="activity_settings_text_view_duo_summary">Gesamtpunkte und Rest</string>
+    <string name="activity_settings_toggle_button_duo_normal">Normal</string>
+    <string name="activity_settings_toggle_button_duo_statistic">Statistik</string>
+
+    <string name="activity_settings_text_view_solo_title">Einzeljass</string>
+    <string name="activity_settings_text_view_solo_points_limit">Punktelimit (max. 2500):</string>
+    <string name="activity_settings_toggle_button_solo_down">Abwärts</string>
+    <string name="activity_settings_toggle_button_solo_up">Aufwärts</string>
+    <string name="activity_solo_button_new_game">Neues Spiel</string>
+    <string name="activity_solo_button_reverse">Rückgängig</string>
+    <string name="activity_solo_dialog_button_close">Schließen</string>
+    <string name="activity_solo_dialog_message_won">Hat Gewonnen</string>
+    <string name="activity_solo_dialog_title_end">Spiel beendet</string>
+    <string name="activity_solo_edit_text_lhs">Spieler A</string>
+    <string name="activity_solo_edit_text_rhs">Spieler B</string>
+    <string name="activity_solo_points_limit">"Punktelimit: "</string>
+    <string name="activity_duo">Kreuzjass</string>
+    <string name="activity_solo">Einzeljass</string>
+    <string name="activity_settings">Einstellungen</string>
+    <string name="activity_input">Eingabe</string>
+</resources>

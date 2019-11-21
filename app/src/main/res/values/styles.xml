@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:statusBarColor">@color/green</item>
+        <item name="android:navigationBarColor">@color/green</item>
+        <item name="android:windowBackground">@color/green</item>
+        <item name="android:buttonStyle">@style/AppTheme.Button.Style</item>
+        <item name="android:buttonStyleToggle">@style/AppTheme.Button.Style.Toggle</item>
+        <item name="android:textViewStyle">@style/AppTheme.TextView.Style</item>
+        <item name="android:textAppearanceMedium">@style/AppTheme.TextAppearance.Medium</item>
+        <item name="android:textAppearanceLarge">@style/AppTheme.TextAppearance.Large</item>
+        <item name="android:editTextStyle">@style/AppTheme.Edit.Text.Style</item>
+        <item name="android:alertDialogStyle">@style/AppTheme.AlertDialog.Style</item>
+        <item name="android:switchStyle">@style/AppTheme.Switch.Style</item>
+    </style>
+
+    <style name="AppTheme.Button.Style" parent="android:style/Widget.Button">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/default_button_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@drawable/default_button_background</item>
+    </style>
+
+    <style name="AppTheme.Button.Style.Toggle" parent="android:style/Widget.Button.Toggle">
+        <item name="android:background">@drawable/default_button_toggle</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/default_button_toggle_text_size</item>
+        <item name="android:minHeight">@dimen/default_button_toggle_min_height</item>
+    </style>
+
+    <style name="AppTheme.Edit.Text.Style" parent="android:style/Widget.EditText">
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/default_edit_text_text_size</item>
+        <item name="android:background">@drawable/default_edit_text_background</item>
+    </style>
+
+    <style name="AppTheme.TextView.Style" parent="android:style/Widget.TextView">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="AppTheme.TextAppearance.Switch" parent="android:style/TextAppearance">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/default_text_appearance_medium_text_size</item>
+    </style>
+
+    <style name="AppTheme.TextAppearance.Medium" parent="android:style/TextAppearance.Medium">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/default_text_appearance_medium_text_size</item>
+    </style>
+
+    <style name="AppTheme.TextAppearance.Large" parent="android:style/TextAppearance.Large">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/default_text_appearance_large_text_size</item>
+    </style>
+
+    <style name="AppTheme.AlertDialog.Style" parent="android:style/Theme.Dialog">
+        <item name="android:bottomBright">@color/green</item>
+        <item name="android:bottomDark">@color/green</item>
+        <item name="android:bottomMedium">@color/green</item>
+        <item name="android:centerBright">@color/green</item>
+        <item name="android:centerDark">@color/green</item>
+        <item name="android:centerMedium">@color/green</item>
+        <item name="android:fullBright">@color/green</item>
+        <item name="android:fullDark">@color/green</item>
+        <item name="android:topBright">@color/green</item>
+        <item name="android:topDark">@color/green</item>
+        <item name="android:background">@color/green</item>
+    </style>
+
+    <style name="AppTheme.Switch.Style" parent="Widget.AppCompat.CompoundButton.Switch">
+        <item name="android:track">@drawable/default_switch_track</item>
+        <item name="android:thumb">@drawable/default_switch_thumb</item>
+        <item name="android:thumbTextPadding">10dp</item>
+        <item name="android:switchTextAppearance">@style/AppTheme.TextAppearance.Switch</item>
+    </style>
+
+</resources>

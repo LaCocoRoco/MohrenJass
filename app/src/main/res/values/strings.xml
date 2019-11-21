@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">Mohren Jass</string>
+
+    <string name="preference_name" translatable="false">mohren</string>
+    <string name="preference_duo_name_lhs" translatable="false">duoNameLhs</string>
+    <string name="preference_duo_name_rhs" translatable="false">duoNameRhs</string>
+    <string name="preference_duo_points_size" translatable="false">duoPointsSize</string>
+    <string name="preference_duo_points_lhs" translatable="false">duoPointsLhs</string>
+    <string name="preference_duo_points_rhs" translatable="false">duoPointsRhs</string>
+    <string name="preference_duo_points_limit" translatable="false">duoPointsLimit</string>
+    <string name="preference_duo_points_total" translatable="false">duoPointsTotal</string>
+    <string name="preference_duo_design" translatable="false">duoDesign</string>
+    <string name="preference_solo_name_lhs" translatable="false">soloNameLhs</string>
+    <string name="preference_solo_name_rhs" translatable="false">soloNameRhs</string>
+    <string name="preference_solo_points_size" translatable="false">soloPointsSize</string>
+    <string name="preference_solo_points_lhs" translatable="false">soloPointsLhs</string>
+    <string name="preference_solo_points_rhs" translatable="false">soloPointsRhs</string>
+    <string name="preference_solo_points_limit" translatable="false">soloPointsLimit</string>
+    <string name="preference_solo_design" translatable="false">soloDesign</string>
+
+    <string name="extra_group" translatable="false">group</string>
+    <string name="extra_lhs" translatable="false">lhs</string>
+    <string name="extra_rhs" translatable="false">rhs</string>
+
+    <string name="activity_main" translatable="false">Mohren Jass</string>
+    <string name="activity_main_button_duo">Duo Jass</string>
+    <string name="activity_main_button_solo">Solo Jass</string>
+    <string name="activity_main_button_settings">Settings</string>
+    <string name="activity_main_image_view_logo_mohren" translatable="false">MohrenLogo</string>
+
+    <string name="activity_duo">Duo Jass</string>
+    <string name="activity_duo_button_reverse">Reverse</string>
+    <string name="activity_duo_button_new_game">New Game</string>
+    <string name="activity_duo_edit_text_lhs">Group A</string>
+    <string name="activity_duo_edit_text_rhs">Group B</string>
+    <string name="activity_duo_image_view_visualization" translatable="false">Visualization</string>
+    <string name="activity_duo_dialog_title_end">Game End</string>
+    <string name="activity_duo_dialog_message_won">Has Won</string>
+    <string name="activity_duo_dialog_button_close">Close</string>
+
+    <string name="activity_solo">Solo Jass</string>
+    <string name="activity_solo_button_reverse">Reverse</string>
+    <string name="activity_solo_button_new_game">New Game</string>
+    <string name="activity_solo_edit_text_lhs">Player A</string>
+    <string name="activity_solo_edit_text_rhs">Player B</string>
+    <string name="activity_solo_image_view_visualization" translatable="false">Visualization</string>
+    <string name="activity_solo_dialog_title_end">Game End</string>
+    <string name="activity_solo_dialog_message_won">Has Won</string>
+    <string name="activity_solo_dialog_button_close">Close</string>
+    <string name="activity_solo_points_limit">"Points Limit:  "</string>
+
+    <string name="activity_input">Input</string>
+    <string name="activity_input_edit_text_evaluate_played_points" translatable="false">0</string>
+    <string name="activity_input_button_evaluate_played_points">Add</string>
+    <string name="activity_input_button_remit_points_1" translatable="false">+20</string>
+    <string name="activity_input_button_remit_points_2" translatable="false">+50</string>
+    <string name="activity_input_button_remit_points_3" translatable="false">+100</string>
+    <string name="activity_input_button_remit_points_4" translatable="false">+120</string>
+    <string name="activity_input_button_remit_points_5" translatable="false">+140</string>
+    <string name="activity_input_button_remit_points_6" translatable="false">+150</string>
+    <string name="activity_input_button_remit_points_7" translatable="false">+160</string>
+    <string name="activity_input_button_remit_points_8" translatable="false">+180</string>
+    <string name="activity_input_button_remit_points_9" translatable="false">+200</string>
+    <string name="activity_input_text_view_played_points">"Played "</string>
+    <string name="activity_input_text_view_points_enemy">Points Enemy:</string>
+    <string name="activity_input_text_view_points_enemy_value" translatable="false">0</string>
+    <string name="activity_input_text_view_remit_points">Remit Points</string>
+
+    <string name="activity_settings">Settings</string>
+    <string name="activity_settings_text_view_duo_title">Duo Jass</string>
+    <string name="activity_settings_text_view_duo_points_limit">Points Limit (max. 2500):</string>
+    <string name="activity_settings_text_view_duo_summary">Total and Remaining Points</string>
+    <string name="activity_settings_edit_text_duo_points_limit" translatable="false">0</string>
+    <string name="activity_settings_toggle_button_duo_normal">Normal</string>
+    <string name="activity_settings_toggle_button_duo_statistic">Statistic</string>
+
+    <string name="activity_settings_text_view_solo_title">Solo Jass</string>
+    <string name="activity_settings_text_view_solo_points_limit">Points Limit (max. 2500):</string>
+    <string name="activity_settings_edit_text_solo_points_limit" translatable="false">0</string>
+    <string name="activity_settings_toggle_button_solo_up">Up</string>
+    <string name="activity_settings_toggle_button_solo_down">Down</string>
+</resources>

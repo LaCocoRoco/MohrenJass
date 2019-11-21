@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset xmlns:android="http://schemas.android.com/apk/res/android"
+    android:insetLeft="@dimen/default_button_inset"
+    android:insetTop="@dimen/default_button_inset"
+    android:insetRight="@dimen/default_button_inset"
+    android:insetBottom="@dimen/default_button_inset">
+    <shape android:shape="rectangle">
+        <solid android:color="@color/green" />
+        <stroke
+            android:width="@dimen/default_stroke"
+            android:color="@color/white" />
+        <padding
+            android:bottom="@dimen/default_button_padding"
+            android:top="@dimen/default_button_padding" />
+    </shape>
+</inset>

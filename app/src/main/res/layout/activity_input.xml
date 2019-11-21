@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_input_relative_layout_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="5dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginBottom="5dp"
+    android:baselineAligned="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/activity_input_linear_layout_focus"
+        android:layout_width="0px"
+        android:layout_height="0px"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+        <requestFocus />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/activity_input_linear_layout_played_points"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.4">
+
+            <TextView
+                android:id="@+id/activity_input_text_view_played_points"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="5dp"
+                android:gravity="bottom"
+                android:text="@string/activity_input_text_view_played_points"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <RelativeLayout
+                android:id="@+id/activity_input_relative_layout_played_points_separator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true" />
+
+            <EditText
+                android:id="@+id/activity_input_edit_text_evaluate_played_points"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_toStartOf="@+id/activity_input_relative_layout_played_points_separator"
+                android:cursorVisible="false"
+                android:digits="0123456789"
+                android:gravity="center"
+                android:hint="@string/activity_input_edit_text_evaluate_played_points"
+                android:inputType="phone"
+                android:singleLine="true"
+                android:autofillHints="no"
+                android:imeOptions="actionGo"
+                tools:targetApi="o" />
+
+            <Button
+                android:id="@+id/activity_input_button_evaluate_played_points"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/activity_input_relative_layout_played_points_separator"
+                android:text="@string/activity_input_button_evaluate_played_points"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5">
+
+            <RelativeLayout
+                android:id="@+id/activity_input_relative_layout_points_enemy_separator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:id="@+id/activity_input_text_view_points_enemy"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_toStartOf="@+id/activity_input_relative_layout_points_enemy_separator"
+                android:gravity="center"
+                android:text="@string/activity_input_text_view_points_enemy"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/activity_input_text_view_points_enemy_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_toEndOf="@+id/activity_input_relative_layout_points_enemy_separator"
+                android:gravity="center"
+                android:hint="@string/activity_input_text_view_points_enemy_value"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/activity_input_linear_layout_remit_points"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/activity_input_linear_layout_played_points"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.7">
+
+            <TextView
+                android:id="@+id/activity_input_text_view_remit_points"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="5dp"
+                android:gravity="bottom"
+                android:text="@string/activity_input_text_view_remit_points"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <RelativeLayout
+                android:id="@+id/activity_input_relative_layout_separator_first"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_centerHorizontal="true" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/activity_input_relative_layout_separator_first"
+                android:text="@string/activity_input_button_remit_points_2"
+                android:onClick="onClickActivityInputButtonRemitPoints"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_toStartOf="@+id/activity_input_relative_layout_separator_first"
+                android:text="@string/activity_input_button_remit_points_1"
+                android:onClick="onClickActivityInputButtonRemitPoints"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <RelativeLayout
+                android:id="@+id/activity_input_relative_layout_separator_second"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_centerHorizontal="true" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/activity_input_relative_layout_separator_second"
+                android:text="@string/activity_input_button_remit_points_4"
+                android:onClick="onClickActivityInputButtonRemitPoints"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_toStartOf="@+id/activity_input_relative_layout_separator_second"
+                android:text="@string/activity_input_button_remit_points_3"
+                android:onClick="onClickActivityInputButtonRemitPoints"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <RelativeLayout
+                android:id="@+id/activity_input_relative_layout_separator_third"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_centerHorizontal="true" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/activity_input_relative_layout_separator_third"
+                android:text="@string/activity_input_button_remit_points_6"
+                android:onClick="onClickActivityInputButtonRemitPoints"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_toStartOf="@+id/activity_input_relative_layout_separator_third"
+                android:text="@string/activity_input_button_remit_points_5"
+                android:onClick="onClickActivityInputButtonRemitPoints"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <RelativeLayout
+                android:id="@+id/activity_input_relative_layout_separator_fourth"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_centerHorizontal="true" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/activity_input_relative_layout_separator_fourth"
+                android:text="@string/activity_input_button_remit_points_8"
+                android:onClick="onClickActivityInputButtonRemitPoints"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_toStartOf="@+id/activity_input_relative_layout_separator_fourth"
+                android:text="@string/activity_input_button_remit_points_7"
+                android:onClick="onClickActivityInputButtonRemitPoints"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:text="@string/activity_input_button_remit_points_9"
+                android:onClick="onClickActivityInputButtonRemitPoints"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

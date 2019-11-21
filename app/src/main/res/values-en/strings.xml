@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="activity_main_button_duo">Duo Jass</string>
+    <string name="activity_main_button_solo">Solo Jass</string>
+    <string name="activity_main_button_settings">Settings</string>
+
+    <string name="activity_duo_button_reverse">Reverse</string>
+    <string name="activity_duo_button_new_game">New Game</string>
+    <string name="activity_duo_edit_text_lhs">Group A</string>
+    <string name="activity_duo_edit_text_rhs">Group B</string>
+    <string name="activity_duo_dialog_title_end">Game End</string>
+    <string name="activity_duo_dialog_message_won">Has Won</string>
+    <string name="activity_duo_dialog_button_close">Close</string>
+
+    <string name="activity_input_button_evaluate_played_points">Add</string>
+    <string name="activity_input_text_view_played_points">Played Points</string>
+    <string name="activity_input_text_view_points_enemy">Points Enemy:</string>
+    <string name="activity_input_text_view_remit_points">Remit Points</string>
+
+    <string name="activity_settings_text_view_duo_title">Duo Jass</string>
+    <string name="activity_settings_text_view_duo_points_limit">Points Limit (max. 2500):</string>
+    <string name="activity_settings_text_view_duo_summary">Total and Remaining Points</string>
+    <string name="activity_settings_toggle_button_duo_normal">Normal</string>
+    <string name="activity_settings_toggle_button_duo_statistic">Statistic</string>
+
+    <string name="activity_settings_text_view_solo_title">Solo Jass</string>
+    <string name="activity_settings_text_view_solo_points_limit">Points Limit (max. 2500):</string>
+    <string name="activity_settings_toggle_button_solo_up">Up</string>
+    <string name="activity_settings_toggle_button_solo_down">Down</string>
+    <string name="activity_solo_button_new_game">New Game</string>
+    <string name="activity_solo_button_reverse">Reverse</string>
+    <string name="activity_solo_dialog_button_close">Close</string>
+    <string name="activity_solo_dialog_message_won">Has Won</string>
+    <string name="activity_solo_dialog_title_end">Game End</string>
+    <string name="activity_solo_edit_text_lhs">Player A</string>
+    <string name="activity_solo_edit_text_rhs">Player B</string>
+    <string name="activity_solo_points_limit">"Points Limit:  "</string>
+    <string name="activity_duo">Duo Jass</string>
+    <string name="activity_solo">Solo Jass</string>
+    <string name="activity_settings">Settings</string>
+    <string name="activity_input">Input</string>
+</resources>

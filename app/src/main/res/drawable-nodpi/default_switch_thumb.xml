@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <inset android:insetLeft="@dimen/default_button_inset" android:insetTop="@dimen/default_button_inset" android:insetRight="@dimen/default_button_inset" android:insetBottom="@dimen/default_button_inset">
+            <shape android:shape="rectangle">
+                <size android:height="@dimen/default_switch_shape_size" />
+                <stroke android:width="@dimen/default_stroke" android:color="@color/white" />
+                <gradient android:endColor="@color/green" android:startColor="@color/green" />
+            </shape>
+        </inset>
+    </item>
+    <item android:state_checked="true">
+        <inset android:insetLeft="@dimen/default_button_inset" android:insetTop="@dimen/default_button_inset" android:insetRight="@dimen/default_button_inset" android:insetBottom="@dimen/default_button_inset">
+            <shape android:shape="rectangle">
+                <size android:height="@dimen/default_switch_shape_size" />
+                <stroke android:width="@dimen/default_stroke" android:color="@color/white" />
+                <gradient android:endColor="@color/green" android:startColor="@color/green" />
+            </shape>
+        </inset>
+    </item>
+    <item>
+        <inset android:insetLeft="@dimen/default_button_inset" android:insetTop="@dimen/default_button_inset" android:insetRight="@dimen/default_button_inset" android:insetBottom="@dimen/default_button_inset">
+            <shape android:shape="rectangle">
+                <size android:height="@dimen/default_switch_shape_size" />
+                <stroke android:width="@dimen/default_stroke" android:color="@color/white" />
+                <gradient android:endColor="@color/green" android:startColor="@color/green" />
+            </shape>
+        </inset>
+    </item>
+</selector>

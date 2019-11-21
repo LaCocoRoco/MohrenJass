@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_settings_relative_layout_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="5dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginBottom="5dp">
+
+    <LinearLayout
+        android:id="@+id/activity_settings_linear_layout_focus"
+        android:layout_width="0px"
+        android:layout_height="0px"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+
+        <requestFocus />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/activity_settings_relative_layout_separator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/activity_settings_text_view_duo_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:gravity="center_vertical"
+        android:text="@string/activity_settings_text_view_duo_title"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/activity_settings_text_view_duo_points_limit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/activity_settings_text_view_duo_title"
+        android:layout_alignBottom="@+id/activity_settings_edit_text_duo_points_limit"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="center_vertical"
+        android:text="@string/activity_settings_text_view_duo_points_limit"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/activity_settings_edit_text_duo_points_limit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/activity_settings_text_view_duo_title"
+        android:layout_alignStart="@+id/activity_settings_switch_duo_total_points"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="0dp"
+        android:cursorVisible="false"
+        android:digits="0123456789"
+        android:gravity="center"
+        android:hint="@string/activity_settings_edit_text_duo_points_limit"
+        android:imeOptions="actionGo"
+        android:importantForAutofill="no"
+        android:inputType="phone"
+        android:singleLine="true" />
+
+    <ToggleButton
+        android:id="@+id/activity_settings_toggle_button_duo_normal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/activity_settings_text_view_duo_points_limit"
+        android:layout_alignEnd="@+id/activity_settings_relative_layout_separator"
+        android:layout_alignBottom="@+id/activity_settings_toggle_button_duo_statistic"
+        android:layout_alignParentStart="true"
+        android:text="@string/activity_settings_toggle_button_duo_normal"
+        android:textOff="@string/activity_settings_toggle_button_duo_normal"
+        android:textOn="@string/activity_settings_toggle_button_duo_normal" />
+
+    <ToggleButton
+        android:id="@+id/activity_settings_toggle_button_duo_statistic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/activity_settings_text_view_duo_points_limit"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/activity_settings_relative_layout_separator"
+        android:text="@string/activity_settings_toggle_button_duo_statistic"
+        android:textOff="@string/activity_settings_toggle_button_duo_statistic"
+        android:textOn="@string/activity_settings_toggle_button_duo_statistic" />
+
+    <TextView
+        android:id="@+id/activity_settings_text_view_duo_summary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/activity_settings_toggle_button_duo_normal"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_toStartOf="@+id/activity_settings_switch_duo_total_points"
+        android:gravity="center_vertical"
+        android:text="@string/activity_settings_text_view_duo_summary"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Switch
+        android:id="@+id/activity_settings_switch_duo_total_points"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/activity_settings_toggle_button_duo_normal"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp" />
+
+    <RelativeLayout
+        android:id="@+id/activity_settings_relative_layout_solo_separator"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_below="@+id/activity_settings_switch_duo_total_points" />
+
+    <TextView
+        android:id="@+id/activity_settings_text_view_solo_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/activity_settings_relative_layout_solo_separator"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:gravity="center_vertical"
+        android:text="@string/activity_settings_text_view_solo_title"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/activity_settings_text_view_solo_points_limit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/activity_settings_text_view_solo_title"
+        android:layout_alignBottom="@+id/activity_settings_edit_text_solo_points_limit"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="center_vertical"
+        android:text="@string/activity_settings_text_view_solo_points_limit"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/activity_settings_edit_text_solo_points_limit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/activity_settings_text_view_solo_title"
+        android:layout_alignStart="@+id/activity_settings_switch_duo_total_points"
+        android:layout_alignParentEnd="true"
+        android:cursorVisible="false"
+        android:digits="0123456789"
+        android:gravity="center"
+        android:hint="@string/activity_settings_edit_text_solo_points_limit"
+        android:imeOptions="actionGo"
+        android:importantForAutofill="no"
+        android:inputType="phone"
+        android:singleLine="true" />
+
+    <ToggleButton
+        android:id="@+id/activity_settings_toggle_button_solo_up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/activity_settings_text_view_solo_points_limit"
+        android:layout_alignEnd="@+id/activity_settings_relative_layout_separator"
+        android:layout_alignBottom="@+id/activity_settings_toggle_button_solo_down"
+        android:layout_alignParentStart="true"
+        android:text="@string/activity_settings_toggle_button_solo_up"
+        android:textOff="@string/activity_settings_toggle_button_solo_up"
+        android:textOn="@string/activity_settings_toggle_button_solo_up" />
+
+    <ToggleButton
+        android:id="@+id/activity_settings_toggle_button_solo_down"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/activity_settings_text_view_solo_points_limit"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/activity_settings_relative_layout_separator"
+        android:text="@string/activity_settings_toggle_button_solo_down"
+        android:textOff="@string/activity_settings_toggle_button_solo_down"
+        android:textOn="@string/activity_settings_toggle_button_solo_down" />
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="default_button_padding">6dp</dimen>
+    <dimen name="default_button_inset">5dp</dimen>
+    <dimen name="default_button_text_size">17sp</dimen>
+    <dimen name="default_stroke">4dp</dimen>
+    <dimen name="default_button_toggle_text_size">17sp</dimen>
+    <dimen name="default_button_toggle_min_height">40dp</dimen>
+    <dimen name="default_text_appearance_medium_text_size">16sp</dimen>
+    <dimen name="default_text_appearance_large_text_size">25sp</dimen>
+    <dimen name="default_switch_shape_size">40dp</dimen>
+    <dimen name="default_edit_text_text_size">16sp</dimen>
+</resources>
