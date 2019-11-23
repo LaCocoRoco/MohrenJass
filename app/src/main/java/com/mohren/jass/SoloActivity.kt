@@ -161,7 +161,7 @@ class SoloActivity : Activity() {
     }
 
     private fun removePoints() {
-        if (points!!.size > 1) points!!.removeAt(points!!.size - 1)
+        if (points!!.isNotEmpty()) points!!.removeAt(points!!.size - 1)
     }
 
     private fun clearPoints() {

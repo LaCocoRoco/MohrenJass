@@ -171,7 +171,7 @@ class DuoActivity : Activity() {
     }
 
     private fun removePoints() {
-        if (points!!.size > 1) points!!.removeAt(points!!.size - 1)
+        if (points!!.isNotEmpty()) points!!.removeAt(points!!.size - 1)
     }
 
     private fun clearPoints() {
@@ -273,7 +273,6 @@ class DuoActivity : Activity() {
         }
 
         val lineMap = FloatArray(list.size)
-
         for (f in lineMap.indices) lineMap[f] = list[f].toFloat()
 
         // paint text left

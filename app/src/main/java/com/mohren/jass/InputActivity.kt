@@ -43,6 +43,7 @@ class InputActivity : Activity() {
 
         inputMethodService = getSystemService(INPUT_METHOD_SERVICE) as InputMethodManager
         editTextEvaluatePlayedPoints = findViewById(R.id.activity_input_edit_text_evaluate_played_points)
+
         val textViewPointsEnemyValue = findViewById<TextView>(R.id.activity_input_text_view_points_enemy_value)
         val buttonEvaluatePoints = findViewById<Button>(R.id.activity_input_button_evaluate_played_points)
 
